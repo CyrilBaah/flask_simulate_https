@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>✅ Secure App</title>
+</head>
+<body>
+    <h1>Welcome to the Secure Zone 🔐</h1>
+    {% if cookie %}
+        <p>Secure Cookie Present: <strong>{{ cookie }}</strong></p>
+    {% else %}
+        <p>No cookie yet, but we’ve just set one for you.</p>
+    {% endif %}
+</body>
+</html>
