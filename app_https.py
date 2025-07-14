@@ -19,4 +19,4 @@ def home():
 
 
 if __name__ == "__main__":
-    app.run(ssl_context=("cert.pem", "key.pem"), port=5001, debug=True)
+    app.run(ssl_context=("./srv.crt", "./srv.key"), port=5001, debug=True)
